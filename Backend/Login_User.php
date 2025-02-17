@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     echo "<br>". $tnt ."<br>";
     if ($user['uid']==$uid && $user['upassword'] == $upassword && $user['uid']!=1) {
         // Password matches, set session variables
-        $_SESSION['UId'] = $user['uid'];
+        $_SESSION['UId'] = $user['u id'];
         $_SESSION['UName'] = $user['uname'];
         $_SESSION['UEmail'] = $user['uemail'];
         $_SESSION['UPassword'] = $user['upassword'];

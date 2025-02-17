@@ -8,7 +8,7 @@ $dbname = "digital_library";  // Database name
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-echo "Connected PHP";
+// echo "Connected PHP";
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
